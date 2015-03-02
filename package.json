@@ -1,0 +1,15 @@
+{
+  "name": "primushttpbench",
+  "version": "1.0.0",
+  "description": "Benchmark to test primus-ws and HTTP performance",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Kristijan Trajkovski",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.1",
+    "primus": "^2.4.12",
+    "request": "^2.53.0",
+    "ws": "^0.7.1"
+  }
+}
