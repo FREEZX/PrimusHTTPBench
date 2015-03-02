@@ -17,11 +17,11 @@ if (cluster.isMaster) {
   server.listen(3000);
 
   var running = 0;
-  console.time('express');
+  console.time('primus');
   cluster.on('exit', function(worker, code, signal) {
     --running;
     if(running === 0){
-      console.timeEnd('express');
+      console.timeEnd('primus');
       process.exit();
     }
   });
